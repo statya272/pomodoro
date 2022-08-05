@@ -1,3 +1,5 @@
+package com.safonov.pomodoro;
+
 import java.util.Scanner;
 import java.util.concurrent.TimeUnit;
 
@@ -11,7 +13,7 @@ public class Pomodoro {
     [-w, 1, -b, 1, -count, 1]
      */
     public static void main(String[] args) throws InterruptedException {
-        System.out.println("Ehi Pomodoro. Напиши пожалуйста команду");
+        System.out.println("Привет! Напиши пожалуйста команду");
         // считываем пользовательский ввод
         String[] cmd = new Scanner(System.in).nextLine().split(" ");
 

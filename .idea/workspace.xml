@@ -4,19 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d02fb45d-2f9d-43cd-99b1-1503f13bfb7a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pomodoro.java" afterDir="false" />
+    <list default="true" id="d02fb45d-2f9d-43cd-99b1-1503f13bfb7a" name="Changes" comment="First commit">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/safonov/tbot/EchoBot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/safonov/tbot/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/safonov/tbot/PomodoroBot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pomodoro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/safonov/pomodoro/Pomodoro.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,12 +44,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/staty/IdeaProjects/gradlePomodoro"
   }
-}</component>
-  <component name="RunManager" selected="Application.Pomodoro">
+}]]></component>
+  <component name="RunManager" selected="Application.com.safonov.tbot.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="gradlePomodoro.main" />
@@ -62,16 +61,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Pomodoro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Pomodoro" />
+    <configuration name="com.safonov.pomodoro.Pomodoro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.safonov.pomodoro.Pomodoro" />
       <module name="gradlePomodoro.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.safonov.tbot.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.safonov.tbot.Main" />
+      <module name="gradlePomodoro.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.safonov.tbot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Pomodoro" />
+        <item itemvalue="Application.com.safonov.tbot.Main" />
+        <item itemvalue="Application.com.safonov.pomodoro.Pomodoro" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -87,8 +100,16 @@
       <workItem from="1659352345673" duration="1041000" />
       <workItem from="1659355275302" duration="921000" />
       <workItem from="1659513913947" duration="1290000" />
-      <workItem from="1659671882303" duration="1552000" />
+      <workItem from="1659671882303" duration="4167000" />
     </task>
+    <task id="LOCAL-00001" summary="First commit">
+      <created>1659674277047</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1659674277047</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,5 +125,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
   </component>
 </project>
